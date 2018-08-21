@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AlbieroST</string>
+    <string name="passwordHint">Contraseña</string>
+    <string name="userHint">Usuario</string>
+    <string name="buttonText">Login</string>
+    <string name="title_activity_st">StActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="loginError">Contraseña incorrecta</string>
+    <string name="nav_Inicio">Inicio</string>
+    <string name="nav_Servicios">Servicios Pendientes</string>
+    <string name="nav_map">Mapa</string>
+    <string name="nav_Novedades">Novedades</string>
+    <string name="nav_CerrarSesion">Cerrar Sesion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_clientes">Clientes</string>
+    <string name="nav_share">Share</string>
+    <string name="fragmento_de_novedades">Fragmento de novedades</string>
+    <string name="strg_frag_novedades">Fragmento de novedades</string>
+    <string name="fragmento_mapa">Fragmento de mapa</string>
+    <string name="nav_index">este es el index frag</string>
+</resources>
