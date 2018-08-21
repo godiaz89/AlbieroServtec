@@ -17,7 +17,7 @@ public class NavPanelListAdapter extends BaseAdapter {
 
             R.drawable.ic_menu_manage,
             R.drawable.ic_menu_manage,
-            R.drawable.ic_client,
+            R.drawable.ic_menu_manage,
             R.drawable.ic_menu_manage,
             R.drawable.ic_menu_manage,
             R.drawable.ic_menu_manage,
