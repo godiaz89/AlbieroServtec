@@ -15,13 +15,13 @@ public class NavPanelListAdapter extends BaseAdapter {
     String[] menus = {"Inicio", "Servicios", "Clientes", "Mapa", "Novedades", "Share", "Cerrar Session"};
     int[] menuImg = {
 
-            R.drawable.ic_home,
-            R.drawable.ic_ots,
+            R.drawable.ic_menu_manage,
+            R.drawable.ic_menu_manage,
             R.drawable.ic_client,
-            R.drawable.ic_maps,
-            R.drawable.ic_news,
-            R.drawable.ic_compartir,
-            R.drawable.ic_exit
+            R.drawable.ic_menu_manage,
+            R.drawable.ic_menu_manage,
+            R.drawable.ic_menu_manage,
+            R.drawable.ic_menu_manage
 
     };
 
