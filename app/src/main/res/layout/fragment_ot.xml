@@ -8,7 +8,7 @@
         android:layout_height="150dp"
         android:id="@+id/imageView2"
         android:tint="#999999"
-        android:src="@drawable/ic_menu_camera"
+        android:src="@drawable/ic_ot"
         android:layout_marginTop="100dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />

@@ -25,4 +25,6 @@
     <string name="strg_frag_novedades">Fragmento de novedades</string>
     <string name="fragmento_mapa">Fragmento de mapa</string>
     <string name="nav_index">este es el index frag</string>
+    <string name="ALB_Title">Servicio Tecnico</string>
+    <string name="ALB_subtitle">Creado por sector de IT</string>
 </resources>
