@@ -27,4 +27,5 @@
     <string name="nav_index">este es el index frag</string>
     <string name="ALB_Title">Servicio Tecnico</string>
     <string name="ALB_subtitle">Creado por sector de IT</string>
+    <string name="CardView_Fijo_cont">Alarma Domiciliaria</string>
 </resources>
