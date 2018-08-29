@@ -1,30 +1,51 @@
 package net.albiero.albierost;
 
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.List;
+
+import testClasses.Ots;
+
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
+    List<Ots> ots;
 
-
-
-
+    public RecyclerAdapter(List<Ots> ots) {
+        this.ots = ots;
+    }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        return null;
+        View v= LayoutInflater.from(parent.getContext()).inflate(R.layout.recycler_ot, parent,false);
+        //set onclicklistener
+        ViewHolder vh = new ViewHolder(v);
+        return vh;
     }
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
+        holder.repCom.setText(ots.get(position).getreCom());
+        holder.nombre.setText(ots.get(position).getnombre());
+        holder.motivo.setText(ots.get(position).getMotivo());
+        holder.desc.setText(ots.get(position).getDesc());
 
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return ots.size();
     }
+
+    @Override
+    public void onAttachedToRecyclerView (RecyclerView recyclerView){
+        super.onAttachedToRecyclerView(recyclerView);
+    }
+
+
+
 
     public static class ViewHolder extends RecyclerView.ViewHolder{
         public TextView repCom;
