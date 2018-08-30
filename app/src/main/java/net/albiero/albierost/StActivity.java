@@ -55,6 +55,14 @@ public class StActivity extends AppCompatActivity
         NavPanelListAdapter adapter = new NavPanelListAdapter(this,menus);
         navlist.setAdapter(adapter);
 
+        IndexFragment indexf = new IndexFragment();
+        getSupportFragmentManager().beginTransaction()
+                .setCustomAnimations(R.anim.enter,R.anim.exit,R.anim.pop_enter, R.anim.pop_exit)
+                .replace(R.id.content_st,indexf)
+                .addToBackStack(null)
+                .commit();
+
+
         navlist.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
