@@ -10,10 +10,10 @@ import java.util.List;
 
 import testClasses.Ots;
 
-public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
+public class RecyclerOtAdapter extends RecyclerView.Adapter<RecyclerOtAdapter.ViewHolder> {
     List<Ots> ots;
 
-    public RecyclerAdapter(List<Ots> ots) {
+    public RecyclerOtAdapter(List<Ots> ots) {
         this.ots = ots;
     }
 

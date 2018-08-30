@@ -10,8 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import net.albiero.albierost.R;
-import net.albiero.albierost.RecyclerAdapter;
+import net.albiero.albierost.RecyclerOtAdapter;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import testClasses.Ots;
@@ -23,9 +24,7 @@ public class OTFragments extends Fragment {
     private RecyclerView.Adapter adapter;
     private RecyclerView.LayoutManager lm;
     private static RecyclerView rv;
-    private static List<Ots> ots;
-
-
+    private static List<Ots> ots = new ArrayList<Ots>();
 
 
     public OTFragments() {
@@ -57,7 +56,7 @@ public class OTFragments extends Fragment {
         ots.add(new Ots("AL-10/0","AREVALO SRL","GPRS No Comunica", "Los pibes de arevalo estan calientes porque no van los tecnicos"));
         ots.add(new Ots("AL-9840/0","BOSCH TUCUMAN", "OTROS", "Rodolfo rompe el pingo quiere que veamos la bosch"));
 
-        adapter = new RecyclerAdapter(ots);
+        adapter = new RecyclerOtAdapter(ots);
         rv.setAdapter(adapter);
 
 
